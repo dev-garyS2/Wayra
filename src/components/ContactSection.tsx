@@ -64,7 +64,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="font-medium text-gray-900">Envíenos un Email</p>
-                  <p className="text-gray-600">info@negocio-ejemplo.com</p>
+                  <p className="text-gray-600">info@wayra-connect.com</p>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="font-medium text-gray-900">Llámenos</p>
-                  <p className="text-gray-600">(555) 123-4567</p>
+                  <p className="text-gray-600">2323223</p>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ const ContactSection: React.FC = () => {
               <div className="grid sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-gray-700">
-                    Su Nombre
+                    Nombre
                   </label>
                   <input
                     id="name"
@@ -100,7 +100,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium text-gray-700">
-                    Su Email
+                    Email
                   </label>
                   <input
                     id="email"
@@ -115,7 +115,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div className="sm:col-span-2 space-y-2">
                   <label htmlFor="message" className="text-sm font-medium text-gray-700">
-                    Su Mensaje
+                    Mensaje
                   </label>
                   <textarea
                     id="message"
@@ -129,7 +129,7 @@ const ContactSection: React.FC = () => {
                   />
                 </div>
                 <div className="sm:col-span-2">
-                  <Button type="submit" className="w-full bg-business-500 hover:bg-business-600 text-white h-12">
+                  <Button type="submit" className="w-full bg-purple hover:bg-darkblue text-white h-12">
                     Enviar Mensaje
                   </Button>
                 </div>

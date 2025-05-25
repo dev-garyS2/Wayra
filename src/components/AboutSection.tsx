@@ -10,7 +10,7 @@ const AboutSection: React.FC = () => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
   <img
-    src="/about-image.jpg"  // Asegúrate de colocar tu imagen en la carpeta /public
+    src="/Wayra/about-image.jpg" 
     alt="Conectividad urbana inteligente"
     className="w-full h-full object-cover"
   />
@@ -35,7 +35,7 @@ const AboutSection: React.FC = () => {
               ))}
             </ul>
             <div className="pt-4">
-              <Button className="bg-business-500 hover:bg-business-600 text-white">
+              <Button className="bg-purple hover:bg-darkblue text-white">
                 Conozca Más Sobre Nosotros
               </Button>
             </div>

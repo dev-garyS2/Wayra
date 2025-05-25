@@ -3,18 +3,18 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-12 px-6 md:px-12 lg:px-24">
+    <footer className="bg-darkblue text-gray-500 py-12 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <span className="w-8 h-8 bg-business-500 rounded-md flex items-center justify-center">
-                <span className="text-white font-bold">W</span>
+                <img src="/Wayra/wayra-logo.png" alt="Wayra Connect Logo" className="w-full h-full object-contain" />
               </span>
               <span className="text-xl font-bold text-white">Wayra Connect</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Transformando empresas a través de soluciones innovadoras y excelencia estratégica.
+              Transformando espacios públicos en zonas Wi-Fi sostenibles y digitales.
             </p>
             <div className="flex space-x-4">
               {['#', '#', '#', '#'].map((link, index) => (

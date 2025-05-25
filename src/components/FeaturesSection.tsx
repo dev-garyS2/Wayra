@@ -48,13 +48,13 @@ const FeaturesSection: React.FC = () => {
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900">¿Listo para conectarte?</h3>
               <p className="mt-4 text-gray-600">
-                Únase a cientos de clientes satisfecho.
+                Únase a cientos de clientes satisfechos.
               </p>
             </div>
             <div className="flex justify-center md:justify-end">
               <a 
                 href="#contact"
-                className="inline-flex items-center justify-center px-6 py-3 bg-business-500 text-white font-medium rounded-lg hover:bg-business-600 transition"
+                className="inline-flex items-center justify-center px-6 py-3 bg-purple text-white font-medium rounded-lg hover:bg-darkblue transition"
               >
                 Contáctenos Hoy <ArrowRight className="ml-2 h-4 w-4" />
               </a>

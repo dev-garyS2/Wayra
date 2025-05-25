@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center gap-2">
           <span className="w-8 h-8 rounded-md overflow-hidden flex items-center justify-center">
-            <img src="/wayra-logo.png" alt="Wayra Connect Logo" className="w-full h-full object-contain" />
+            <img src="/Wayra/wayra-logo.png" alt="Wayra Connect Logo" className="w-full h-full object-contain" />
           </span>
           <span className="text-xl font-bold text-gray-900">Wayra Connect</span>
         </div>
@@ -19,11 +19,11 @@ const Navbar: React.FC = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           <ul className="flex space-x-8">
-            <li><a href="#features" className="text-gray-700 hover:text-business-600 font-medium">Características</a></li>
-            <li><a href="#about" className="text-gray-700 hover:text-business-600 font-medium">Nosotros</a></li>
+            <li><a href="#about" className="text-gray-700 hover:text-business-600 font-medium">Características</a></li>
+            <li><a href="#features" className="text-gray-700 hover:text-business-600 font-medium">Nosotros</a></li>
             <li><a href="#contact" className="text-gray-700 hover:text-business-600 font-medium">Contacto</a></li>
           </ul>
-          <Button className="bg-business-500 hover:bg-business-600 text-white">
+          <Button className="bg-purple hover:bg-darkblue text-white">
             Comenzar
           </Button>
         </div>

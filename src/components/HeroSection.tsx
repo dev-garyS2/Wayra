@@ -15,14 +15,13 @@ const HeroSection: React.FC = () => {
                  Conectividad que viaja como el viento
               </h1>
               <p className="text-xl text-gray-600 max-w-lg">
-                Proporcionamos una plataforma de conectividad urbana inteligente que integre tecnologías de telecomunicaciones y análisis de datos para mejorar el acceso.
-             
-
+                Proporcionamos una plataforma de conectividad urbana inteligente que 
+                integre tecnologías de telecomunicaciones y análisis de datos para mejorar el acceso.
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-business-500 hover:bg-business-600 text-white h-12 px-6 text-base">
+              <Button className="bg-purple hover:bg-darkblue text-white h-12 px-6 text-base">
                 Comenzar
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -35,7 +34,7 @@ const HeroSection: React.FC = () => {
           <div className="relative">
             <div className="aspect-square md:aspect-[4/3] lg:aspect-[16/10] bg-gradient-to-br from-business-500 to-blue-400 rounded-2xl shadow-xl overflow-hidden">
               <img
-                src="/tu-imagen.jpg" // Cambia esto a la ruta correcta
+                src="/Wayra/tu-imagen.jpg" 
                 alt="Descripción de la imagen"
                 className="object-cover w-full h-full"
               />
